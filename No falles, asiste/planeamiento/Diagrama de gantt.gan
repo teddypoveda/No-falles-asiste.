@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Cronograma de aactividades " company="" webLink="http://" view-date="2021-01-11" view-index="0" gantt-divider-location="297" resource-divider-location="300" version="2.8.11" locale="es">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="110" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="84" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="84" order="2"/>
+        <option id="color.recent"><![CDATA[#ff6666 #66ff66 #f4f4f4 #00ccff #990099 #000000 #ffff00 #ffcccc #33ffcc #00ffcc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[New Year's Day]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Labour Day]]></date>
+        <date year="" month="7" date="20" type="HOLIDAY"><![CDATA[Independence Day]]></date>
+        <date year="" month="8" date="7" type="HOLIDAY"><![CDATA[Battle of Boyacá]]></date>
+        <date year="" month="12" date="8" type="HOLIDAY"><![CDATA[Immaculate Conception]]></date>
+        <date year="" month="12" date="25" type="HOLIDAY"><![CDATA[Christmas]]></date>
+        <date year="2020" month="1" date="6" type="HOLIDAY"><![CDATA[Epiphany]]></date>
+        <date year="2020" month="3" date="23" type="HOLIDAY"><![CDATA[Saint Joseph's Day]]></date>
+        <date year="2020" month="4" date="9" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2020" month="4" date="10" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2020" month="5" date="25" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2020" month="6" date="15" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2020" month="6" date="22" type="HOLIDAY"><![CDATA[Sacred Heart]]></date>
+        <date year="2020" month="6" date="29" type="HOLIDAY"><![CDATA[Saint Peter and Saint Paul]]></date>
+        <date year="2020" month="8" date="17" type="HOLIDAY"><![CDATA[Assumption Day]]></date>
+        <date year="2020" month="10" date="12" type="HOLIDAY"><![CDATA[Columbus Day]]></date>
+        <date year="2020" month="11" date="2" type="HOLIDAY"><![CDATA[All Saint's Day Holiday]]></date>
+        <date year="2020" month="11" date="16" type="HOLIDAY"><![CDATA[Independence of Cartagena]]></date>
+        <date year="2019" month="1" date="7" type="HOLIDAY"><![CDATA[Epiphany]]></date>
+        <date year="2019" month="3" date="25" type="HOLIDAY"><![CDATA[Saint Joseph's Day]]></date>
+        <date year="2019" month="4" date="18" type="HOLIDAY"><![CDATA[Maundy Thursday]]></date>
+        <date year="2019" month="4" date="19" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2019" month="6" date="3" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2019" month="6" date="24" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2019" month="7" date="1" type="HOLIDAY"><![CDATA[Sacred Heart / Saint Peter and Saint Paul]]></date>
+        <date year="2019" month="8" date="19" type="HOLIDAY"><![CDATA[Assumption Day]]></date>
+        <date year="2019" month="10" date="14" type="HOLIDAY"><![CDATA[Columbus Day]]></date>
+        <date year="2019" month="11" date="11" type="HOLIDAY"><![CDATA[Independence of Cartagena]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="124" name="Proyeto" color="#00ccff" meeting="false" start="2020-08-25" duration="63" complete="0" thirdDate="2020-08-28" thirdDate-constraint="0" expand="true">
+            <task id="127" name="Fase 1 planificacion" color="#00ccff" meeting="false" start="2020-08-25" duration="63" complete="0" thirdDate="2020-08-28" thirdDate-constraint="0" expand="true">
+                <task id="150" name="Nombre proyecto" color="#ff6666" meeting="false" start="2020-08-25" duration="57" complete="0" thirdDate="2020-08-26" thirdDate-constraint="0" expand="true"/>
+                <task id="148" name="Creacion del logo" color="#ff6666" meeting="false" start="2020-08-25" duration="57" complete="0" thirdDate="2020-08-12" thirdDate-constraint="0" expand="true"/>
+                <task id="151" name="Significado del logo" color="#ff6666" meeting="false" start="2020-08-25" duration="57" complete="0" thirdDate="2020-08-12" thirdDate-constraint="0" expand="true"/>
+                <task id="158" name="Eslogan" color="#ff6666" meeting="false" start="2020-08-25" duration="57" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+                <task id="153" name="Objetivo general" color="#ff6666" meeting="false" start="2020-08-25" duration="57" complete="0" thirdDate="2020-08-11" thirdDate-constraint="0" priority="2" expand="true"/>
+                <task id="154" name="Objetivo especifico" color="#ff6666" meeting="false" start="2020-08-31" duration="53" complete="0" thirdDate="2020-08-11" thirdDate-constraint="0" priority="2" expand="true"/>
+                <task id="152" name="Investigacion y aprobacion" color="#ff6666" meeting="false" start="2020-08-31" duration="53" complete="0" thirdDate="2020-08-11" thirdDate-constraint="0" expand="true"/>
+                <task id="155" name="Recoleccion de datos" color="#ff6666" meeting="false" start="2020-08-31" duration="53" complete="0" thirdDate="2020-08-11" thirdDate-constraint="0" expand="true"/>
+                <task id="167" name="Justificacion" color="#ff6666" meeting="false" start="2020-11-17" duration="6" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+                <task id="168" name="Estado del arte" color="#ff6666" meeting="false" start="2020-11-17" duration="6" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+                <task id="166" name="Alcance del proyecto" color="#ff6666" meeting="false" start="2020-11-17" duration="6" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+                <task id="164" name="Planteamiento del problema" color="#ff6666" meeting="false" start="2020-11-17" duration="6" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="170" name="Fase 2 diseño" color="#000000" meeting="false" start="2020-09-03" duration="115" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true">
+            <depend id="179" type="2" difference="0" hardness="Strong"/>
+            <task id="174" name="Bpmn" color="#66ff66" meeting="false" start="2020-09-03" duration="15" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="176" name="Mapa de procesos" color="#66ff66" meeting="false" start="2020-09-15" duration="2" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="177" name="Arbol de problemas" color="#66ff66" meeting="false" start="2020-09-15" duration="3" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="178" name="Arbol de objetivos" color="#66ff66" meeting="false" start="2020-10-01" duration="2" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="204" name="Historias de usuarios" color="#66ff66" meeting="false" start="2020-09-30" duration="5" complete="0" thirdDate="2020-12-07" thirdDate-constraint="0" expand="true"/>
+            <task id="175" name="Diagrama UML" color="#66ff66" meeting="false" start="2020-10-07" duration="5" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="173" name="Caso de uso - diagrama de caso de uso, formato de uso de caso extendido" color="#66ff66" meeting="false" start="2020-10-07" duration="5" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="192" name="Diagrama de clases" color="#66ff66" meeting="false" start="2020-10-07" duration="5" complete="0" thirdDate="2020-12-07" thirdDate-constraint="0" expand="true"/>
+            <task id="195" name="Diagrama de objetos" color="#66ff66" meeting="false" start="2020-10-07" duration="5" complete="0" thirdDate="2020-12-07" thirdDate-constraint="0" expand="true"/>
+            <task id="206" name="Requerimientos funcionales y no funcionales" color="#66ff66" meeting="false" start="2020-10-27" duration="2" complete="0" thirdDate="2020-12-07" thirdDate-constraint="0" expand="true"/>
+            <task id="202" name="Sistema control de versiones" color="#66ff66" meeting="false" start="2020-12-07" duration="1" complete="0" thirdDate="2020-12-07" thirdDate-constraint="0" expand="true"/>
+            <task id="198" name="Modelo conceptual" color="#66ff66" meeting="false" start="2020-11-23" duration="50" complete="0" thirdDate="2020-12-07" thirdDate-constraint="0" expand="true"/>
+            <task id="172" name="Modelo entidad relacion - mer - notacion crols foot - normalizacion mer" color="#66ff66" meeting="false" start="2020-11-30" duration="49" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="171" name="Prototipo (mockups, wireframes o html)" color="#66ff66" meeting="false" start="2020-11-30" duration="49" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="183" name="Diagrama de distribuicion" color="#66ff66" meeting="false" start="2021-02-10" duration="1" complete="0" thirdDate="2021-02-10" thirdDate-constraint="0" expand="true"/>
+            <task id="182" name="Informes de requerimientos (estandar IEEE830 requerimientos funcionales y no funcionales" color="#66ff66" meeting="false" start="2021-02-10" duration="2" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="184" name="Diccionario de datos" color="#66ff66" meeting="false" start="2021-02-10" duration="2" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="181" name="Presupuesto proyectado" color="#66ff66" meeting="false" start="2021-02-10" duration="4" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+            <task id="180" name="Diagrama de GANTT" color="#66ff66" meeting="false" start="2021-02-10" duration="7" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="179" name="Fase 3 Implementacion" color="#000000" meeting="false" start="2021-02-19" duration="2" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+        <task id="186" name="Fase 4 Pruebas" color="#8cb6ce" meeting="false" start="2020-08-14" duration="1" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+        <task id="187" name="Fase 5 implementacion" color="#8cb6ce" meeting="false" start="2020-08-14" duration="1" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+        <task id="188" name="Fase 6 Uso y mantenimiento" color="#8cb6ce" meeting="false" start="2020-08-14" duration="1" complete="0" thirdDate="2020-08-14" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="joseph ivan vaca torres" function="Default:1" contacts="jvaca30@misena.edu.co" phone="3024461709"/>
+        <resource id="1" name="teddy poveda " function="Default:1" contacts="tpoveda2@misena.edu.co" phone="3192168941">
+            <rate name="standard" value="1"/>
+        </resource>
+        <resource id="2" name="duvan molina " function="Default:0" contacts="dmmolina45@misena.edu.co" phone="3016754031">
+            <rate name="standard" value="2"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="124" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="148" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="150" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="167" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="166" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="170" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="171" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="177" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="182" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="198" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="206" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="178" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="127" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="151" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="153" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="158" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="166" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="124" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="170" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="173" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="180" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="181" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="192" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="202" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="154" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="155" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="164" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="168" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="152" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="166" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="124" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="170" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="175" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="174" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="176" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="195" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="204" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
